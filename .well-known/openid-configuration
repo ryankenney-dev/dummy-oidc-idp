@@ -1,0 +1,21 @@
+{
+	"issuer": "https://osa-nise-ocp-rk4-oidc.s3.us-gov-west-1.amazonaws.com",
+	"jwks_uri": "https://osa-nise-ocp-rk4-oidc.s3.us-gov-west-1.amazonaws.com/keys.json",
+    "response_types_supported": [
+        "id_token"
+    ],
+    "subject_types_supported": [
+        "public"
+    ],
+    "id_token_signing_alg_values_supported": [
+        "RS256"
+    ],
+    "claims_supported": [
+        "aud",
+        "exp",
+        "sub",
+        "iat",
+        "iss",
+        "sub"
+    ]
+}
